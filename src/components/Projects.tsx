@@ -64,7 +64,7 @@ export const Projects = () => {
       image: "/src/img/react-logo@3x.png",
       title: "E-Shop_Project",
       description: "A sleek and responsive e-commerce platform built with React for a seamless shopping experience.",
-      link: "https://e-commerce-project-mu-woad.vercel.app/signup",
+      link: "https://github.com/RishuRajput1407/E-commerce-project.git",
       tech: ["React"]
     },
   ];
