@@ -1,6 +1,8 @@
 
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import photo1 from '../img/photo1.png';
+
 
 export const Home = () => {
   const el = useRef(null);
@@ -37,7 +39,7 @@ export const Home = () => {
             <i className='bx bxl-twitter'></i>
           </a>
           <a 
-            href="https://www.linkedin.com/in/rishu-singh-10b18923a/" 
+            href="www.linkedin.com/in/risu-kumar-358237245" 
             className="text-2xl hover:text-soft-yellow transition-colors"
           >
             <i className='bx bxl-linkedin'></i>
@@ -62,7 +64,7 @@ export const Home = () => {
   
   {/* Image with hover rotation and shadow */}
       <img 
-         src="/src/img/photo1.png" 
+         src={photo1}
           alt="Risu Kumar" 
           className="max-w-xs mx-auto rounded-lg shadow-2xl transform transition-transform duration-500 hover:rotate-y-6 hover:scale-110 hover:shadow-blue-500 hover:shadow-2xl"
   />
@@ -70,3 +72,4 @@ export const Home = () => {
     </section>
   );
 };
+
